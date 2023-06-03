@@ -17,6 +17,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 -->
-<link href="https://ftp.stackoverflow.wiki/bolo/fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/5.15.3/css/all.css" rel="stylesheet">
+<link rel="preload" href="//at.alicdn.com/t/font_3206145_gjhaifwio1c.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_3206145_kjk5xscakni.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_3503263_uzz549lxkq.css">
 
 

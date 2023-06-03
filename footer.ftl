@@ -21,19 +21,21 @@
     <div class="wrapper">
         <#include "../../common-template/macro-user_site.ftl">
         <@userSite dir=""></@userSite> <br>
-        &copy; ${year}
-        <a href="${servePath}">${blogTitle}</a>
+        <strong style="color: #FFFFFF;margin-left:10px;">&copy; ${year}
+            <a href="${servePath}" style="color: #FFFFFF;">${blogTitle}</a></strong>
         ${footerContent}
         <span class="footer__heart">❤️</span>
-        Powered by <a href="https://github.com/adlered/bolo-solo" target="_blank">Bolo</a>
+        <#--Powered by <a href="https://github.com/adlered/bolo-solo" target="_blank">Bolo</a>
         Theme ✨ Bolo-Butterfly
         <sup>[<a href="https://github.com/adlered/bolo-solo" target="_blank">ref</a>]</sup>
-        Modified by <a href="https://github.com/lonuslan" target="_blank">Lonus Lan</a> <br>
+        Modified by <a href="https://github.com/lonuslan" target="_blank">Lonus Lan</a> <br>-->
+        <br/>
+        <center style="text-align: left;margin-left:10px;margin-right:10px;"><strong style="color: #ffffff;">免责声明：本站为个人博客，博客所发布的一切破解补丁、注册机和注册信息及软件的文章仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络，版权争议与本站无关，您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。访问和下载本站内容，说明您已同意上述条款。</strong></center>
     </div>
 </footer>
-<#--<svg class="side__top" id="sideTop" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">-->
-<#--    <path d="M26.562 13.958c0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303v0c0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303v0zM23.305 10.7c0 0 0 0 0 0 0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303c0-0 0-0 0-0v0c0-0 0-0 0-0 0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303c0 0 0 0 0 0v0zM20.022 7.417c0 0 0 0 0 0 0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303c0-0 0-0 0-0v0c0-0 0-0 0-0 0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303c0 0 0 0 0 0v0zM29.67 0h-27.339c-0.677 0-1.228 0.551-1.228 1.228s0.551 1.228 1.228 1.228h11.151l-10.725 10.725c-0.476 0.476-0.476 1.253 0 1.729 0.226 0.226 0.551 0.351 0.852 0.351s0.626-0.125 0.852-0.351l10.074-10.074v25.936c0 0.677 0.551 1.228 1.228 1.228s1.228-0.551 1.228-1.228v-26.011c0.476 0.426 1.203 0.426 1.679-0.050s0.476-1.253 0-1.729l-0.576-0.576h11.577c0.677 0 1.228-0.551 1.228-1.228 0-0.626-0.551-1.178-1.228-1.178z"></path>-->
-<#--</svg>-->
+<#--<svg class="side__top" id="sideTop" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">&ndash;&gt;
+    <path d="M26.562 13.958c0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303v0c0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303v0zM23.305 10.7c0 0 0 0 0 0 0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303c0-0 0-0 0-0v0c0-0 0-0 0-0 0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303c0 0 0 0 0 0v0zM20.022 7.417c0 0 0 0 0 0 0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303c0-0 0-0 0-0v0c0-0 0-0 0-0 0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303c0 0 0 0 0 0v0zM29.67 0h-27.339c-0.677 0-1.228 0.551-1.228 1.228s0.551 1.228 1.228 1.228h11.151l-10.725 10.725c-0.476 0.476-0.476 1.253 0 1.729 0.226 0.226 0.551 0.351 0.852 0.351s0.626-0.125 0.852-0.351l10.074-10.074v25.936c0 0.677 0.551 1.228 1.228 1.228s1.228-0.551 1.228-1.228v-26.011c0.476 0.426 1.203 0.426 1.679-0.050s0.476-1.253 0-1.729l-0.576-0.576h11.577c0.677 0 1.228-0.551 1.228-1.228 0-0.626-0.551-1.178-1.228-1.178z"></path>
+</svg>-->
 <#include "../../common-template/label.ftl">
 <#include "rightside.ftl">
 <#include "mobile-menu.ftl">
@@ -43,7 +45,7 @@
 <script type="text/javascript"
         src="${staticServePath}/skins/${skinDirName}/js/circleMagic.min.js?${staticResourceVersion}"
         charset="utf-8"></script>
-<script>
+<#--<script>
     $(function() {
         let darkmode = 0;
         let theme = Cookies.get("theme");
@@ -68,5 +70,5 @@
             }
         }, 1000);
     });
-</script>
+</script>-->
 ${plugins}

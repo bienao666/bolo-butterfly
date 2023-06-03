@@ -47,7 +47,11 @@
         <div style="background-image: url(${article.articleImg1URL})"></div>
         <canvas id="articleTop"></canvas>
     </div>
-
+        <#if article?? && article.articleToC?? && article.articleToC?size &gt; 0>
+            <div class="post__toc">
+                <#include "../../common-template/toc.ftl"/>
+            </div>
+        </#if>
     <main class="layout_post" id="content-inner">
         <article id="post">
             <div class="article">
@@ -84,12 +88,6 @@
                 </div>
             </div>
 
-            <#if article?? && article.articleToC?? && article.articleToC?size &gt; 0>
-                <div class="post__toc">
-                    <#include "../../common-template/toc.ftl"/>
-                </div>
-            </#if>
-
             <div class="article__bottom">
                 <div class="wrapper">
                     <div class="fn__flex">
@@ -110,9 +108,9 @@
     </main>
     <#if pjax><!---- pjax {#pjax} end ----></#if>
 </div>
-<script type="text/javascript"
+<#--<script type="text/javascript"
         src="${staticServePath}/skins/${skinDirName}/js/TweenMax.min.js?${staticResourceVersion}"
-        charset="utf-8"></script>
+        charset="utf-8"></script>-->
 <#include "footer.ftl">
 <#if pjax><!---- pjax {#pjax} start ----></#if>
 <script src="${staticServePath}/js/lib/jquery/jquery.min.js" charset="utf-8"></script>
